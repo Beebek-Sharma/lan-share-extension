@@ -1,0 +1,9 @@
+{
+  "name": "lan_share_host",
+  "description": "LAN Share Native Host",
+  "path": "d:\\lan share\\native-host\\start_server.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://icbldnkgbmdahlbjhnbhljhkdpenpmnh/"
+  ]
+}

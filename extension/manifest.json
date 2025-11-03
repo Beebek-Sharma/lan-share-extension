@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "LAN Share Launcher",
+  "version": "1.0",
+  "description": "Start LAN Share Python server and open the web app instantly.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "tabs",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ]
+}

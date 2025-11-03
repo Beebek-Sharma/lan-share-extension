@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>LAN Share (Python + WebRTC)</title>
+  <style>
+    body { font-family: system-ui; padding: 12px; }
+    #log { height: 250px; overflow: auto; border: 1px solid #ccc; padding: 6px; margin-top: 8px; }
+    #msg, #fileInput { margin-top: 8px; }
+    .image-preview { max-width: 200px; border-radius: 8px; margin-top: 4px; display:block; }
+    #qrBox { margin: 8px 0; }
+    #qrBox img { width: 150px; height: 150px; border: 1px solid #eee; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h2>LAN Share (Python + WebRTC)</h2>
+  <div id="qrBox">
+    <img src="/qr.png" alt="QR" onerror="this.parentElement.style.display='none'" title="Scan to open on another device">
+  </div>
+  <p>
+    Room: <input id="room" value="default">
+    <button id="connect">Connect</button>
+  </p>
+
+  <input id="msg" placeholder="Type message or link" style="width:70%">
+  <button id="send">Send</button><br>
+  <input type="file" id="fileInput" />
+
+  <div id="log"></div>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://unpkg.com/simple-peer@9.11.1/simplepeer.min.js"></script>
+  <script>
+    const logBox = document.getElementById('log');
+    const log = html => {
+      logBox.innerHTML += `<div>${html}</div>`;
+      logBox.scrollTop = logBox.scrollHeight;
+    };
+
+    let socket, peers = {};
+
+    document.getElementById('connect').onclick = () => {
+      socket = io();
+      const room = document.getElementById('room').value;
+      socket.emit('join-room', { room });
+      log('Connected to signaling server. Waiting for peers...');
+
+      socket.on('peer-joined', id => {
+        log('Peer joined: ' + id);
+        createPeer(id, true);
+      });
+
+      socket.on('peer-left', id => {
+        log('Peer left: ' + id);
+        if (peers[id]) peers[id].destroy();
+        delete peers[id];
+      });
+
+      socket.on('signal', ({ from, data }) => {
+        if (!peers[from]) createPeer(from, false);
+        peers[from].signal(data);
+      });
+    };
+
+    function createPeer(id, initiator) {
+      const p = new SimplePeer({ initiator, trickle: true });
+      peers[id] = p;
+
+      p.on('signal', data => {
+        socket.emit('signal', { to: id, from: socket.id, data });
+      });
+
+      p.on('connect', () => log('✅ Connected with ' + id));
+
+      p.on('data', data => {
+        if (data instanceof ArrayBuffer) {
+          const blob = new Blob([data]);
+          const url = URL.createObjectURL(blob);
+          log(`<a href="${url}" download="received_file">📦 Download file</a>`);
+        } else {
+          const msg = new TextDecoder().decode(data);
+          if (msg.startsWith('data:image')) {
+            log(`<img src="${msg}" class="image-preview">`);
+          } else {
+            log('💬 ' + msg);
+          }
+        }
+      });
+    }
+
+    document.getElementById('send').onclick = () => {
+      const msg = document.getElementById('msg').value;
+      const data = msg.trim();
+      if (!data) return;
+      for (const id in peers) {
+        if (peers[id].connected) peers[id].send(data);
+      }
+      log('You: ' + data);
+      document.getElementById('msg').value = '';
+    };
+
+    document.getElementById('fileInput').onchange = async e => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      if (file.type.startsWith('image/') && file.size < 2 * 1024 * 1024) {
+        const base64 = await toBase64(file);
+        broadcast(base64);
+        log(`🖼️ Sent image: ${file.name}`);
+        log(`<img src="${base64}" class="image-preview">`);
+      } else {
+        const buffer = await file.arrayBuffer();
+        broadcast(buffer);
+        log(`📁 Sent file: ${file.name} (${Math.round(file.size / 1024)} KB)`);
+      }
+      e.target.value = '';
+    };
+
+    function broadcast(data) {
+      for (const id in peers) {
+        if (peers[id].connected) peers[id].send(data);
+      }
+    }
+
+    function toBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+  </script>
+</body>
+</html>

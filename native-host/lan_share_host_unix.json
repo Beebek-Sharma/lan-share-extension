@@ -1,0 +1,9 @@
+{
+  "name": "lan_share_host",
+  "description": "LAN Share Python server native host (Unix)",
+  "path": "/absolute/path/to/lan_share/native-host/start_server.sh",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://icbldnkgbmdahlbjhnbhljhkdpenpmnh/"
+  ]
+}

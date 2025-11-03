@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { font-family: system-ui; width: 260px; padding: 12px; }
+    button { width: 100%; padding: 10px; font-size: 15px; border-radius: 8px; margin-top:6px; }
+  </style>
+</head>
+<body>
+  <h3>LAN Share</h3>
+  <label for="port" style="display:block;margin-bottom:6px;">Port: <input id="port" type="number" min="1" max="65535" value="5000" style="width:90px"></label>
+  <button id="startServer">🚀 Start Server</button>
+  <button id="openApp" style="margin-top:6px;">🔗 Open Web App</button>
+  <button id="stopServer" style="margin-top:6px;">🛑 Stop Server</button>
+  <div id="status" style="margin-top:8px;"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
