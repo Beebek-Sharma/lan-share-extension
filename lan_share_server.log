@@ -2722,606 +2722,6 @@ Invalid session eWeKfWWdLFD2LBrtAABu (further occurrences of this error will be 
 127.0.0.1 - - [07/Nov/2025 20:53:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUt65y&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
 127.0.0.1 - - [07/Nov/2025 20:53:37] "GET /socket.io/?EIO=4&transport=polling&t=PfUt65z&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
 127.0.0.1 - - [07/Nov/2025 20:53:37] "POST /socket.io/?EIO=4&transport=polling&t=PfUtCCk&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:02] "GET /socket.io/?EIO=4&transport=polling&t=PfUtCCk.0&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:02] "POST /socket.io/?EIO=4&transport=polling&t=PfUtIOH&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:27] "GET /socket.io/?EIO=4&transport=polling&t=PfUtIOL&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUtOV2&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUtOV3&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:54:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUtUgZ&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:55:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUtUgc&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:55:18] "POST /socket.io/?EIO=4&transport=polling&t=PfUtanG&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:55:43] "GET /socket.io/?EIO=4&transport=polling&t=PfUtanG.0&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:55:43] "POST /socket.io/?EIO=4&transport=polling&t=PfUtgu2&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:08] "GET /socket.io/?EIO=4&transport=polling&t=PfUtgu3&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:08] "POST /socket.io/?EIO=4&transport=polling&t=PfUtn3b&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:33] "GET /socket.io/?EIO=4&transport=polling&t=PfUtn3d&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:33] "POST /socket.io/?EIO=4&transport=polling&t=PfUttEr&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:58] "GET /socket.io/?EIO=4&transport=polling&t=PfUttEs&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:56:59] "POST /socket.io/?EIO=4&transport=polling&t=PfUtzLa&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:24] "GET /socket.io/?EIO=4&transport=polling&t=PfUtzLa.0&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:24] "POST /socket.io/?EIO=4&transport=polling&t=PfUu3XC&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUu4Ur HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUu4ZQ&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUu4ZR&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUu4dS&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUu4dT&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUu3XF&sid=6cz7C_PG8NXBSdIqAACA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUu4eV&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:29] "POST /socket.io/?EIO=4&transport=polling&t=PfUu4iK&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:29] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 20:57:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUu4eL&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:57:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUuAg3&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:58:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUuAg3.0&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:58:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUuFpD&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:58:18] "POST /socket.io/?EIO=4&transport=polling&t=PfUuGmo&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PfUuGmp&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:58:43] "POST /socket.io/?EIO=4&transport=polling&t=PfUuMtY&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:08] "GET /socket.io/?EIO=4&transport=polling&t=PfUuMtY.0&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:08] "POST /socket.io/?EIO=4&transport=polling&t=PfUuT38&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:33] "GET /socket.io/?EIO=4&transport=polling&t=PfUuT38.0&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:34] "POST /socket.io/?EIO=4&transport=polling&t=PfUuZ9t&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:35] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUuZj0 HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUuZnq&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUuZnq.0&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUuZsj.0&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUuZsj&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUuZ9t.0&sid=SteLH9I9a1sC5iqIAACC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:37] "POST /socket.io/?EIO=4&transport=polling&t=PfUuZxy&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 20:59:37] "POST /socket.io/?EIO=4&transport=polling&t=PfUua0v&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:01] "GET /socket.io/?EIO=4&transport=polling&t=PfUuZxn&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:01] "POST /socket.io/?EIO=4&transport=polling&t=PfUufuS&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:26] "GET /socket.io/?EIO=4&transport=polling&t=PfUufuS.0&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:26] "POST /socket.io/?EIO=4&transport=polling&t=PfUul_A&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUul_A.0&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:51] "GET /socket.io/?EIO=4&transport=polling&t=PfUuo0L&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:00:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUusAk&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:16] "GET /socket.io/?EIO=4&transport=polling&t=PfUusAl&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:16] "POST /socket.io/?EIO=4&transport=polling&t=PfUuyMH&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:39] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUv1wk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUv1_S&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUv1_S.0&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUv23T.0&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUv23T&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUuyMI&sid=KI2jocxlWdT7YSwyAACE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUv24V&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUv28P&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:01:40] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:02:05] "GET /socket.io/?EIO=4&transport=polling&t=PfUv24N&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:05] "POST /socket.io/?EIO=4&transport=polling&t=PfUv867&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUv867.0&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUvDk3 HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUvDo_&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUvDo_.0&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUvDtt&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUvAS1&sid=puVS2bw65qsLSfkqAACG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:29] "GET /socket.io/?EIO=4&transport=polling&t=PfUvDts&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /socket.io/?EIO=4&transport=polling&t=PfUvDyq&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:29] "POST /socket.io/?EIO=4&transport=polling&t=PfUvE1p&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "GET /socket.io/?EIO=4&transport=polling&t=PfUvHf8 HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "GET /favicon.ico HTTP/1.1" 404 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "POST /socket.io/?EIO=4&transport=polling&t=PfUvHm8&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "GET /socket.io/?EIO=4&transport=polling&t=PfUvHmB&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "POST /socket.io/?EIO=4&transport=polling&t=PfUvHqo&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:45] "GET /socket.io/?EIO=4&transport=polling&t=PfUvHqk&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:45] "GET /socket.io/?EIO=4&transport=polling&t=PfUvDyh&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:46] "POST /socket.io/?EIO=4&transport=polling&t=PfUvHx6&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:46] "GET / HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /qr.png HTTP/1.1" 304 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIWU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIX0&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIX3&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIXW&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvI1K&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIXU&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvHvC&sid=a4Z4q_BaUSih4kRUAACK HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIYp&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIZD&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIZk&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIaG&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIgF&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIY0&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIl9&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUvIp_&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIhn&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIl4&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUvJve&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:02:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUvJve.0&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:02:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUvIiF&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:03:13] "GET /socket.io/?EIO=4&transport=polling&t=PfUvK5l&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:03:13] "POST /socket.io/?EIO=4&transport=polling&t=PfUvOex&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:03:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUvKDc&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:03:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUvQ5I&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:03:38] "GET /socket.io/?EIO=4&transport=polling&t=PfUvOf3&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:03:38] "POST /socket.io/?EIO=4&transport=polling&t=PfUvUmY&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:03:41] "GET /socket.io/?EIO=4&transport=polling&t=PfUvQ5J&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:03:41] "GET /socket.io/?EIO=4&transport=polling&t=PfUvUmm&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:03:44] "GET /socket.io/?EIO=4&transport=polling&t=PfUvVeF&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:03:44] "POST /socket.io/?EIO=4&transport=polling&t=PfUvWGq&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUvVWm&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUvaub&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:09] "GET /socket.io/?EIO=4&transport=polling&t=PfUvWGq.0&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:09] "POST /socket.io/?EIO=4&transport=polling&t=PfUvcSI&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUvauj&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUvh2q&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUvcSJ&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:34] "POST /socket.io/?EIO=4&transport=polling&t=PfUviZ1&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUvh2s&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:04:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUvnC4&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:59] "GET /socket.io/?EIO=4&transport=polling&t=PfUviZ2&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:04:59] "POST /socket.io/?EIO=4&transport=polling&t=PfUvokl&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:05:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUvnC9&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:05:18] "POST /socket.io/?EIO=4&transport=polling&t=PfUvtJa&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:24] "GET /socket.io/?EIO=4&transport=polling&t=PfUvokl.0&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:24] "POST /socket.io/?EIO=4&transport=polling&t=PfUvurU&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:05:43] "GET /socket.io/?EIO=4&transport=polling&t=PfUvtJe&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:05:44] "POST /socket.io/?EIO=4&transport=polling&t=PfUvzRI&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:49] "GET /socket.io/?EIO=4&transport=polling&t=PfUvurU.0&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:49] "POST /socket.io/?EIO=4&transport=polling&t=PfUv_15&sid=rvkEWOgddg-3SFNTAACI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:50] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:50] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:05:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUv_6N HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:50] "POST /socket.io/?EIO=4&transport=polling&t=PfUv_BE&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUv_BE.0&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUv_G1&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:05:51] "GET /socket.io/?EIO=4&transport=polling&t=PfUvzRN&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:51] "GET /socket.io/?EIO=4&transport=polling&t=PfUv_G0&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:05:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUv_K-&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:05:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUv_Py&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:15] "GET /socket.io/?EIO=4&transport=polling&t=PfUv_Ko&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:15] "POST /socket.io/?EIO=4&transport=polling&t=PfUw5Ht&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:18] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUw606 HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:18] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUw65A&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUw65A.0&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUw6A5&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUw6A4&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUw5Ht.0&sid=FenrmsqZ1gZIj_aNAACO HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUw6FF&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:06:20] "POST /socket.io/?EIO=4&transport=polling&t=PfUw6K1&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:39] "GET /socket.io/?EIO=4&transport=polling&t=PfUw6F2&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:43] "GET /socket.io/?EIO=4&transport=polling&t=PfUwBD6&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:44] "POST /socket.io/?EIO=4&transport=polling&t=PfUwCBs&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:46] "POST /socket.io/?EIO=4&transport=polling&t=PfUwCYL&sid=nwbWf1uBx1hE-GT_AACM HTTP/1.1" 500 -
-Error on request:
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
-    execute(self.server.app)
-    ~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\werkzeug\serving.py", line 331, in execute
-    application_iter = app(environ, start_response)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1536, in __call__
-    return self.wsgi_app(environ, start_response)
-           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask_socketio\__init__.py", line 42, in __call__
-    return super().__call__(environ, start_response)
-           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\middleware.py", line 63, in __call__
-    return self.engineio_app.handle_request(environ, start_response)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\socketio\server.py", line 434, in handle_request
-    return self.eio.handle_request(environ, start_response)
-           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 305, in handle_request
-    socket = self._get_socket(sid)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\base_server.py", line 242, in _get_socket
-    raise KeyError('Session is disconnected')
-KeyError: 'Session is disconnected'
-192.168.18.205 - - [07/Nov/2025 21:06:47] "GET / HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "GET /qr.png HTTP/1.1" 304 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwD6M HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwD6_&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwD71&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwD7X&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwCBu&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwD7V&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwD8i&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDGE&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwD9R&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDA0&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDAW&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDCF&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDCd&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDIB&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDIH&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUwD7-&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:49] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDEv&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:06:49] "POST /socket.io/?EIO=4&transport=polling&t=PfUwDN4&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:06:49] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDJk&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:09] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDN1&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:09] "POST /socket.io/?EIO=4&transport=polling&t=PfUwINP&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:13] "GET /socket.io/?EIO=4&transport=polling&t=PfUwDK7&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:13] "POST /socket.io/?EIO=4&transport=polling&t=PfUwJFH&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUwINP.0&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUwJFT&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:33] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUwOMN HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUwJmx&sid=2JG36WcbMf_SanOvAACQ HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "POST /socket.io/?EIO=4&transport=polling&t=PfUwORK&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUwORK.0&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "POST /socket.io/?EIO=4&transport=polling&t=PfUwOWC.0&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUwOWC&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUwJer&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:35] "POST /socket.io/?EIO=4&transport=polling&t=PfUwObI&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:07:35] "POST /socket.io/?EIO=4&transport=polling&t=PfUwOgC&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:38] "GET /socket.io/?EIO=4&transport=polling&t=PfUwOT2&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:38] "POST /socket.io/?EIO=4&transport=polling&t=PfUwPMj&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUwT2s&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUwOb6&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUwT3m&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUwPMo&sid=nc18jWpqMRC2rhDNAACS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTLS HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTM4&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTM9&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTMs&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTMm&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTBs&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTOq&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTVe&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTPS&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTQH&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTQk&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTXd&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTXj&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTNT&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTUR&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PfUwTcb&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTYM&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:59] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTce&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:07:59] "POST /socket.io/?EIO=4&transport=polling&t=PfUwUXz&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:02] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVBL&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:02] "GET /socket.io/?EIO=4&transport=polling&t=PfUwTYs&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:02] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVGA&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:02] "GET /socket.io/?EIO=4&transport=polling&t=PfUwUXz.0&sid=K_jp9OdGy-3pkgrFAACU HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:02] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVO- HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVTp&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVTq&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVYc&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUwV93&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVYb&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVdZ&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVS1&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVa-&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVdS&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVbb&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVc8&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:04] "POST /socket.io/?EIO=4&transport=polling&t=PfUwVch&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:04] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVaA&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:04] "POST /socket.io/?EIO=4&transport=polling&t=PfUwViQ&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:04] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVe1&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:04] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVjs&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVeU&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUwZTw&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:27] "GET /socket.io/?EIO=4&transport=polling&t=PfUwVnC&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:27] "POST /socket.io/?EIO=4&transport=polling&t=PfUwbaS&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:35] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:08:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdPF HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:35] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:08:35] "POST /socket.io/?EIO=4&transport=polling&t=PfUwdUA&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdUA.0&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwZU5&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwbaT&sid=8BjStP4MkLGGabGXAACY HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwdY-&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdYz&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwde1&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdR_&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwdcQ&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwddp&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwdj2&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwde2&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:36] "POST /socket.io/?EIO=4&transport=polling&t=PfUwdeg&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:36] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdlU&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:38] "POST /socket.io/?EIO=4&transport=polling&t=PfUwe8f&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:38] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdba&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:38] "POST /socket.io/?EIO=4&transport=polling&t=PfUwe8m&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:38] "GET /socket.io/?EIO=4&transport=polling&t=PfUwdnp&sid=8zLa41ooxwEjlUO6AACa HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:39] "GET /socket.io/?EIO=4&transport=polling&t=PfUweKP HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:39] "POST /socket.io/?EIO=4&transport=polling&t=PfUwePD&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:39] "GET /socket.io/?EIO=4&transport=polling&t=PfUwePD.0&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:39] "POST /socket.io/?EIO=4&transport=polling&t=PfUweT-.0&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:39] "GET /socket.io/?EIO=4&transport=polling&t=PfUwe0d&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUweT-&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUweYp&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUweNB&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUweX_&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUweYk&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:08:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUwedg&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUwehd&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUweZo&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:08:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUwejY&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:44] "GET /socket.io/?EIO=4&transport=polling&t=PfUweX8&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:08:44] "POST /socket.io/?EIO=4&transport=polling&t=PfUwfbr&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:04] "GET /socket.io/?EIO=4&transport=polling&t=PfUwemc&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:04] "POST /socket.io/?EIO=4&transport=polling&t=PfUwkVt&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:09:09] "GET /socket.io/?EIO=4&transport=polling&t=PfUwfbw&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:09:10] "POST /socket.io/?EIO=4&transport=polling&t=PfUwljx&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:21] "GET /socket.io/?EIO=4&transport=polling&t=PfUwkVu&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:09:21] "GET /socket.io/?EIO=4&transport=polling&t=PfUwlk2&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:29] "GET /socket.io/?EIO=4&transport=polling&t=PfUwokP&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:29] "POST /socket.io/?EIO=4&transport=polling&t=PfUwqcb&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:09:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUwodE&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:09:35] "POST /socket.io/?EIO=4&transport=polling&t=PfUwrrs&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:54] "GET /socket.io/?EIO=4&transport=polling&t=PfUwqcb.0&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:09:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUwwjH&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:00] "GET /socket.io/?EIO=4&transport=polling&t=PfUwrrx&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:00] "POST /socket.io/?EIO=4&transport=polling&t=PfUwxzK&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:10:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUwwjI&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:10:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUx0um&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:25] "GET /socket.io/?EIO=4&transport=polling&t=PfUwxzQ&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:25] "POST /socket.io/?EIO=4&transport=polling&t=PfUx254&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:10:44] "GET /socket.io/?EIO=4&transport=polling&t=PfUx0un&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:10:45] "POST /socket.io/?EIO=4&transport=polling&t=PfUx6_W&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUx25C&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:10:50] "POST /socket.io/?EIO=4&transport=polling&t=PfUx8Dh&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:10] "GET /socket.io/?EIO=4&transport=polling&t=PfUx6_X&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:10] "POST /socket.io/?EIO=4&transport=polling&t=PfUxDB3&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:15] "GET /socket.io/?EIO=4&transport=polling&t=PfUx8Dm&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:15] "POST /socket.io/?EIO=4&transport=polling&t=PfUxELg&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUxDB4&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:35] "POST /socket.io/?EIO=4&transport=polling&t=PfUxJHo&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUxELm&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUxKTm&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:49] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:49] "GET /socket.io/?EIO=4&transport=polling&t=PfUxMrI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "POST /socket.io/?EIO=4&transport=polling&t=PfUxMwI&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUxMwI.0&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "POST /socket.io/?EIO=4&transport=polling&t=PfUxM_3.0&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUxKTr&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUxJHp&sid=r7NrFde5MHBrlfjsAACc HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUxM_3&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:50] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN4H&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:50] "GET /socket.io/?EIO=4&transport=polling&t=PfUxMtH&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN1x&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:51] "GET /socket.io/?EIO=4&transport=polling&t=PfUxN44&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN2p&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN3Y&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:11:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN94&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:11:51] "POST /socket.io/?EIO=4&transport=polling&t=PfUxN4C&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:11:51] "GET /socket.io/?EIO=4&transport=polling&t=PfUxNAt&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:12:05] "GET /socket.io/?EIO=4&transport=polling&t=PfUxN0w&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:12:05] "POST /socket.io/?EIO=4&transport=polling&t=PfUxQbh&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUxNDx&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:15] "POST /socket.io/?EIO=4&transport=polling&t=PfUxT0w&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:20] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
-192.168.18.205 - - [07/Nov/2025 21:12:21] "GET /socket.io/?EIO=4&transport=polling&t=PfUxQbm&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:21] "GET /socket.io/?EIO=4&transport=polling&t=PfUxT0x&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:12:30] "GET /socket.io/?EIO=4&transport=polling&t=PfUxUca&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:12:30] "POST /socket.io/?EIO=4&transport=polling&t=PfUxWjh&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:40] "GET /socket.io/?EIO=4&transport=polling&t=PfUxUjm&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:40] "POST /socket.io/?EIO=4&transport=polling&t=PfUxZ7f&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:52] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:52] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUxcP9 HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUxcQq&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUxcQr&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUxcTx&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUxcTx.0&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:12:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUxWjl&sid=g0uhLWgvuwvJlKZRAACW HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUxZ7h&sid=jS7BfCz4_VW_T-s0AACe HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUxcVu&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:12:54] "POST /socket.io/?EIO=4&transport=polling&t=PfUxcYu&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:54] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:12:56] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdBW&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:56] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdBf&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:56] "GET /socket.io/?EIO=4&transport=polling&t=PfUxcVh&sid=HiUFe_ROsmCMgsoEAACg HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:57] "GET /socket.io/?EIO=4&transport=polling&t=PfUxdNl HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:57] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdSY&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:58] "GET /socket.io/?EIO=4&transport=polling&t=PfUxdSZ&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:58] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdXP.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:58] "GET /socket.io/?EIO=4&transport=polling&t=PfUxdXP&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:12:58] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdcc&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:12:58] "POST /socket.io/?EIO=4&transport=polling&t=PfUxdhV&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:11] "GET / HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:11] "GET /qr.png HTTP/1.1" 304 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxgq6 HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxgqg&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxgqi&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxgrI&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxgrG&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxdcS&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxgst&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxg-3&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxgtj&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxguH&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxgu_&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxh0S&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxgrr&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxh0X&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxgz9&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:12] "POST /socket.io/?EIO=4&transport=polling&t=PfUxh5O&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxh1w&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:22] "GET /socket.io/?EIO=4&transport=polling&t=PfUxh5L&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:22] "POST /socket.io/?EIO=4&transport=polling&t=PfUxjZC&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUxh2H&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:35] "GET /socket.io/?EIO=4&transport=polling&t=PfUxjZC.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:37] "GET /socket.io/?EIO=4&transport=polling&t=PfUxmYx&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:13:37] "POST /socket.io/?EIO=4&transport=polling&t=PfUxmyL&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:47] "GET /socket.io/?EIO=4&transport=polling&t=PfUxme-&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:13:47] "POST /socket.io/?EIO=4&transport=polling&t=PfUxpfw&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:02] "GET /socket.io/?EIO=4&transport=polling&t=PfUxmyP&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:02] "POST /socket.io/?EIO=4&transport=polling&t=PfUxt5q&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:14:12] "GET /socket.io/?EIO=4&transport=polling&t=PfUxpfx&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:14:13] "POST /socket.io/?EIO=4&transport=polling&t=PfUxvmd&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:27] "GET /socket.io/?EIO=4&transport=polling&t=PfUxt5v&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:27] "POST /socket.io/?EIO=4&transport=polling&t=PfUxzDd&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:14:38] "GET /socket.io/?EIO=4&transport=polling&t=PfUxvmd.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:14:38] "POST /socket.io/?EIO=4&transport=polling&t=PfUx_y8&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:52] "GET /socket.io/?EIO=4&transport=polling&t=PfUxzDh&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:14:52] "POST /socket.io/?EIO=4&transport=polling&t=PfUy3Lq&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:03] "GET /socket.io/?EIO=4&transport=polling&t=PfUx_y9&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:03] "POST /socket.io/?EIO=4&transport=polling&t=PfUy62u&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:15:17] "GET /socket.io/?EIO=4&transport=polling&t=PfUy3Lv&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:15:17] "POST /socket.io/?EIO=4&transport=polling&t=PfUy9TV&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:28] "GET /socket.io/?EIO=4&transport=polling&t=PfUy62v&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:28] "POST /socket.io/?EIO=4&transport=polling&t=PfUyCEP&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:15:42] "GET /socket.io/?EIO=4&transport=polling&t=PfUy9Ta&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:15:42] "POST /socket.io/?EIO=4&transport=polling&t=PfUyFbA&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:53] "GET /socket.io/?EIO=4&transport=polling&t=PfUyCEQ&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:15:53] "POST /socket.io/?EIO=4&transport=polling&t=PfUyILG&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:07] "GET /socket.io/?EIO=4&transport=polling&t=PfUyFbH&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:07] "POST /socket.io/?EIO=4&transport=polling&t=PfUyLjP&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:16:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUyILH&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:16:18] "POST /socket.io/?EIO=4&transport=polling&t=PfUyOWr&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:32] "GET /socket.io/?EIO=4&transport=polling&t=PfUyLjU&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:32] "POST /socket.io/?EIO=4&transport=polling&t=PfUyRrE&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:16:43] "GET /socket.io/?EIO=4&transport=polling&t=PfUyOWt&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:16:43] "POST /socket.io/?EIO=4&transport=polling&t=PfUyUda&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:57] "GET /socket.io/?EIO=4&transport=polling&t=PfUyRrI&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:16:58] "POST /socket.io/?EIO=4&transport=polling&t=PfUyXzs&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:08] "GET /socket.io/?EIO=4&transport=polling&t=PfUyUda.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:09] "POST /socket.io/?EIO=4&transport=polling&t=PfUyakJ&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:17:23] "GET /socket.io/?EIO=4&transport=polling&t=PfUyXzy&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:17:23] "POST /socket.io/?EIO=4&transport=polling&t=PfUye5v&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:34] "GET /socket.io/?EIO=4&transport=polling&t=PfUyakL&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:34] "POST /socket.io/?EIO=4&transport=polling&t=PfUygvq&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-192.168.18.205 - - [07/Nov/2025 21:17:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUye5z&sid=0WLsp9o2OWv9lNk_AACk HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:59] "GET /socket.io/?EIO=4&transport=polling&t=PfUygvq.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:17:59] "POST /socket.io/?EIO=4&transport=polling&t=PfUyn0X&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:18:24] "GET /socket.io/?EIO=4&transport=polling&t=PfUyn0Y&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:18:24] "POST /socket.io/?EIO=4&transport=polling&t=PfUytC1&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:18:25] "GET /socket.io/?EIO=4&transport=polling&t=PfUytC2&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:18:49] "GET /socket.io/?EIO=4&transport=polling&t=PfUytVH&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:18:49] "POST /socket.io/?EIO=4&transport=polling&t=PfUyzIn&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:19:14] "GET /socket.io/?EIO=4&transport=polling&t=PfUyzIo&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:19:14] "POST /socket.io/?EIO=4&transport=polling&t=PfUz3PW&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:19:39] "GET /socket.io/?EIO=4&transport=polling&t=PfUz3PY&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:19:39] "POST /socket.io/?EIO=4&transport=polling&t=PfUz9WF&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:04] "GET /socket.io/?EIO=4&transport=polling&t=PfUz9WF.0&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:04] "POST /socket.io/?EIO=4&transport=polling&t=PfUzFhi&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:17] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:18] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:18] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:18] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJ7H HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJAF&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJAF.0&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJFE.0&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUzFhj&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJFE&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJKL&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:19] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJKC&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJPK&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJPM&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJPX&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJK8&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJUD&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJZ7&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "POST /socket.io/?EIO=4&transport=polling&t=PfUzJUD&sid=6wMBwzJsS8K9h1v7AACi HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:20] "GET /socket.io/?EIO=4&transport=polling&t=PfUzJZC&sid=5rQog7hxwLoNXMK1AACm HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:25] "GET / HTTP/1.1" 304 -
 Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
 📱 QR code saved as lan_share_qr.png (points to http://192.168.18.7:5000/)
 
@@ -3334,27 +2734,35 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.18.7:5000
 Press CTRL+C to quit
-127.0.0.1 - - [07/Nov/2025 21:20:47] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:47] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:47] "GET /socket.io/?EIO=4&transport=polling&t=PfUzQCp HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUzQFS&sid=GfbDkDTkb8DneKkcAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUzQFS.0&sid=GfbDkDTkb8DneKkcAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:48] "GET /socket.io/?EIO=4&transport=polling&t=PfUzQHt&sid=GfbDkDTkb8DneKkcAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:48] "POST /socket.io/?EIO=4&transport=polling&t=PfUzQHt.0&sid=GfbDkDTkb8DneKkcAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:48] "GET /qr.png HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:51] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:51] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:51] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "GET /socket.io/?EIO=4&transport=polling&t=PfUzRFr HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "POST /socket.io/?EIO=4&transport=polling&t=PfUzRKA&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "GET /socket.io/?EIO=4&transport=polling&t=PfUzRKA.0&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "POST /socket.io/?EIO=4&transport=polling&t=PfUzRNb&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "GET /socket.io/?EIO=4&transport=polling&t=PfUzRNa&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "GET /socket.io/?EIO=4&transport=polling&t=PfUzQKK&sid=GfbDkDTkb8DneKkcAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "POST /socket.io/?EIO=4&transport=polling&t=PfUzRPE&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "POST /socket.io/?EIO=4&transport=polling&t=PfUzRSS&sid=61gszKoa8zRSUDPAAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:20:52] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:20:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PfV1I9t HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "POST /socket.io/?EIO=4&transport=polling&t=PfV1IBT&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PfV1IBU&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "POST /socket.io/?EIO=4&transport=polling&t=PfV1IEl.0&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:43] "GET /socket.io/?EIO=4&transport=polling&t=PfV1IEl&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:44] "GET /qr.png HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:47] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JAb HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:47] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JEq&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JEq.0&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "GET /qr.png HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JJh&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV1IGX&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JJh.0&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JOm&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JOb&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JTc&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JTd&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:49] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JU7&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JOa&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:49] "POST /socket.io/?EIO=4&transport=polling&t=PfV1JYT&sid=kJM7uEbhfKxQfTC6AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:49] "GET /socket.io/?EIO=4&transport=polling&t=PfV1JYU&sid=qucWzGFxhjDqhNvTAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:37:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:37:56] "GET / HTTP/1.1" 304 -
 Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
 📱 QR code saved as lan_share_qr.png (points to http://192.168.18.7:5000/)
 
@@ -3367,136 +2775,48 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.18.7:5000
 Press CTRL+C to quit
-127.0.0.1 - - [07/Nov/2025 21:31:32] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:32] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "GET /socket.io/?EIO=4&transport=polling&t=PfU_tph HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "POST /socket.io/?EIO=4&transport=polling&t=PfU_trZ&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "GET /socket.io/?EIO=4&transport=polling&t=PfU_tra&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "POST /socket.io/?EIO=4&transport=polling&t=PfU_tug&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "GET /socket.io/?EIO=4&transport=polling&t=PfU_tuf&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:33] "GET /qr.png HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:58] "GET /socket.io/?EIO=4&transport=polling&t=PfU_twW&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:31:58] "POST /socket.io/?EIO=4&transport=polling&t=PfU_zyF&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:32:23] "GET /socket.io/?EIO=4&transport=polling&t=PfU_zyF.0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:32:23] "POST /socket.io/?EIO=4&transport=polling&t=PfV042-&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:32:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV042_&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:32:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV0AEW&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:33:13] "GET /socket.io/?EIO=4&transport=polling&t=PfV0AEX&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:33:14] "POST /socket.io/?EIO=4&transport=polling&t=PfV0GLE&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:33:39] "GET /socket.io/?EIO=4&transport=polling&t=PfV0GLE.0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:33:39] "POST /socket.io/?EIO=4&transport=polling&t=PfV0MWk&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:04] "GET /socket.io/?EIO=4&transport=polling&t=PfV0MWl&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:04] "POST /socket.io/?EIO=4&transport=polling&t=PfV0SdT&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:29] "GET /socket.io/?EIO=4&transport=polling&t=PfV0SdT.0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:29] "POST /socket.io/?EIO=4&transport=polling&t=PfV0YpB&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:54] "GET /socket.io/?EIO=4&transport=polling&t=PfV0YpC&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:34:54] "POST /socket.io/?EIO=4&transport=polling&t=PfV0evx&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:35:19] "GET /socket.io/?EIO=4&transport=polling&t=PfV0evx.0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:35:19] "POST /socket.io/?EIO=4&transport=polling&t=PfV0l5S&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:35:44] "GET /socket.io/?EIO=4&transport=polling&t=PfV0l5T&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:35:45] "POST /socket.io/?EIO=4&transport=polling&t=PfV0rCB&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV0rCB.0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:10] "POST /socket.io/?EIO=4&transport=polling&t=PfV0xNv&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:19] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "GET /socket.io/?EIO=4&transport=polling&t=PfV0zri HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "POST /socket.io/?EIO=4&transport=polling&t=PfV0zw3&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "GET /socket.io/?EIO=4&transport=polling&t=PfV0zw3.0&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:20] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "GET /socket.io/?EIO=4&transport=polling&t=PfV0z-w&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "POST /socket.io/?EIO=4&transport=polling&t=PfV0z-x&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "GET /socket.io/?EIO=4&transport=polling&t=PfV0xO0&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-3t&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "POST /socket.io/?EIO=4&transport=polling&t=PfV0-42&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "POST /socket.io/?EIO=4&transport=polling&t=PfV0-90&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-91&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "POST /socket.io/?EIO=4&transport=polling&t=PfV0-9E&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:21] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-3q&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:22] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-EP&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:22] "POST /socket.io/?EIO=4&transport=polling&t=PfV0-Jk&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:22] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-Oe&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:25] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:26] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:29] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:29] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET /socket.io/?EIO=4&transport=polling&t=PfV10KL HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "POST /socket.io/?EIO=4&transport=polling&t=PfV10Mx&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET /socket.io/?EIO=4&transport=polling&t=PfV10Mx.0&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "POST /socket.io/?EIO=4&transport=polling&t=PfV10PM.0&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-TX&sid=HWdXpy2iWbXe3RvUAAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET /socket.io/?EIO=4&transport=polling&t=PfV10PM&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "GET /socket.io/?EIO=4&transport=polling&t=PfV0-Jm&sid=O1gZO64WUPX_UkB8AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:30] "POST /socket.io/?EIO=4&transport=polling&t=PfV10R_&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:31] "POST /socket.io/?EIO=4&transport=polling&t=PfV10UI&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:31] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:33] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:34] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:35] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:36] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:37] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:37] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:38] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:38] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:39] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:39] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:42] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:43] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:47] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV14iA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV14mZ&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV14mZ.0&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV14p_&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "POST /socket.io/?EIO=4&transport=polling&t=PfV14p_.0&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:48] "GET /socket.io/?EIO=4&transport=polling&t=PfV10Rn&sid=pwK1A889Nea3hrReAAAE HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:49] "POST /socket.io/?EIO=4&transport=polling&t=PfV14rq&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:36:49] "POST /socket.io/?EIO=4&transport=polling&t=PfV14us&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:49] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:56] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:57] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:57] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PfV171F HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PfV175Z&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PfV175Z.0&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "POST /socket.io/?EIO=4&transport=polling&t=PfV17AZ.0&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PfV17AZ&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:58] "GET /socket.io/?EIO=4&transport=polling&t=PfV14rZ&sid=8-x5yvzrmvWiwB5NAAAG HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:36:59] "POST /socket.io/?EIO=4&transport=polling&t=PfV17Fl&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-post request handler error
-Traceback (most recent call last):
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\server.py", line 307, in handle_request
-    socket.handle_post_request(environ)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\socket.py", line 113, in handle_post_request
-    p = payload.Payload(encoded_payload=body)
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 13, in __init__
-    self.decode(encoded_payload)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "C:\Users\bibek\AppData\Local\Programs\Python\Python313\Lib\site-packages\engineio\payload.py", line 44, in decode
-    raise ValueError('Too many packets in payload')
-ValueError: Too many packets in payload
-127.0.0.1 - - [07/Nov/2025 21:36:59] "POST /socket.io/?EIO=4&transport=polling&t=PfV17Kf&sid=y1gaa53avRCWzEZLAAAI HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:37:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "GET /socket.io/?EIO=4&transport=polling&t=PfV1T7G HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "POST /socket.io/?EIO=4&transport=polling&t=PfV1T9u&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "GET /socket.io/?EIO=4&transport=polling&t=PfV1T9v&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "POST /socket.io/?EIO=4&transport=polling&t=PfV1TC4&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "GET /socket.io/?EIO=4&transport=polling&t=PfV1TC3&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:28] "GET /qr.png HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:38] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:38] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "GET /socket.io/?EIO=4&transport=polling&t=PfV1Vlh HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "POST /socket.io/?EIO=4&transport=polling&t=PfV1VqA&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "GET /socket.io/?EIO=4&transport=polling&t=PfV1VqB&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "GET /qr.png HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "POST /socket.io/?EIO=4&transport=polling&t=PfV1Vv1&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "GET /socket.io/?EIO=4&transport=polling&t=PfV1Vv0&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:39] "GET /socket.io/?EIO=4&transport=polling&t=PfV1TEn&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "POST /socket.io/?EIO=4&transport=polling&t=PfV1V-6&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "GET /socket.io/?EIO=4&transport=polling&t=PfV1Vzz&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "POST /socket.io/?EIO=4&transport=polling&t=PfV1W35&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "GET /socket.io/?EIO=4&transport=polling&t=PfV1W36&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "POST /socket.io/?EIO=4&transport=polling&t=PfV1W3Q&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "GET /socket.io/?EIO=4&transport=polling&t=PfV1Vzy&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "GET /socket.io/?EIO=4&transport=polling&t=PfV1W7w&sid=B3vlsULfiKF2Dny0AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:40] "POST /socket.io/?EIO=4&transport=polling&t=PfV1W7w&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET /socket.io/?EIO=4&transport=polling&t=PfV1XFQ HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "POST /socket.io/?EIO=4&transport=polling&t=PfV1XJm&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET /socket.io/?EIO=4&transport=polling&t=PfV1XJm.0&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "POST /socket.io/?EIO=4&transport=polling&t=PfV1XN4.0&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET /socket.io/?EIO=4&transport=polling&t=PfV1W7y&sid=aj9cMDDVNh9pkxoxAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "GET /socket.io/?EIO=4&transport=polling&t=PfV1XN4&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:45] "POST /socket.io/?EIO=4&transport=polling&t=PfV1XOx&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:46] "POST /socket.io/?EIO=4&transport=polling&t=PfV1XRx&sid=wwwHqhq8SW1oghzZAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [07/Nov/2025 21:38:46] "GET /qr.png HTTP/1.1" 304 -
+127.0.0.1 - - [07/Nov/2025 21:38:47] "GET / HTTP/1.1" 304 -
 Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
-📱 QR code saved as lan_share_qr.png (points to http://192.168.18.7:5000/)
+⚠️ Could not generate QR code: No module named 'PIL'
 
 🔗 Open on other devices: http://192.168.18.7:5000/
 
@@ -3507,56 +2827,306 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.18.7:5000
 Press CTRL+C to quit
-127.0.0.1 - - [07/Nov/2025 21:41:06] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:06] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:06] "GET /qr.png HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:06] "GET /socket.io/?EIO=4&transport=polling&t=PfV23oR HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:06] "POST /socket.io/?EIO=4&transport=polling&t=PfV23pU&sid=wWgasTCzK5xgOvB7AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:07] "GET /socket.io/?EIO=4&transport=polling&t=PfV23pU.0&sid=wWgasTCzK5xgOvB7AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:07] "POST /socket.io/?EIO=4&transport=polling&t=PfV23uK.0&sid=wWgasTCzK5xgOvB7AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:07] "GET /socket.io/?EIO=4&transport=polling&t=PfV23uK&sid=wWgasTCzK5xgOvB7AAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:12] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:41:27] "GET / HTTP/1.1" 304 -
-Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
-📱 QR code saved as lan_share_qr.png (points to http://192.168.18.7:5000/)
-
-🔗 Open on other devices: http://192.168.18.7:5000/
-
- * Serving Flask app 'server'
- * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.18.7:5000
-Press CTRL+C to quit
-127.0.0.1 - - [07/Nov/2025 21:46:04] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:04] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:04] "GET /socket.io/?EIO=4&transport=polling&t=PfV3CYn HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:04] "POST /socket.io/?EIO=4&transport=polling&t=PfV3CaT&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:04] "GET /socket.io/?EIO=4&transport=polling&t=PfV3CaT.0&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:05] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Cdf&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:05] "POST /socket.io/?EIO=4&transport=polling&t=PfV3Cdg&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:05] "GET /qr.png HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:07] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:08] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:08] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dbt HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "POST /socket.io/?EIO=4&transport=polling&t=PfV3Dg9&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dg9.0&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "GET /qr.png HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "POST /socket.io/?EIO=4&transport=polling&t=PfV3DlB&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "GET /socket.io/?EIO=4&transport=polling&t=PfV3DlA&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:09] "GET /socket.io/?EIO=4&transport=polling&t=PfV3CfM&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dq1&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "POST /socket.io/?EIO=4&transport=polling&t=PfV3DqA&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "POST /socket.io/?EIO=4&transport=polling&t=PfV3Dv1&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dv0&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "POST /socket.io/?EIO=4&transport=polling&t=PfV3DvK&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dq0&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV3Dzx&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "POST /socket.io/?EIO=4&transport=polling&t=PfV3D-0&sid=8qZofM0i_BoihR3IAAAA HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:10] "GET /socket.io/?EIO=4&transport=polling&t=PfV3E2q&sid=8oX5Fpt6yPrKrdp5AAAC HTTP/1.1" 200 -
-127.0.0.1 - - [07/Nov/2025 21:46:12] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:13] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:14] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [07/Nov/2025 21:46:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:36:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:36:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:36:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:36:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1c0x HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1c3D&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1c3E&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1c5y&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1c5z&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:48] "GET /qr.png HTTP/1.1" 304 -
+Invalid session ZioomC4YhMhafMX-AAAG (further occurrences of this error will be logged with level INFO)
+192.168.18.205 - - [09/Nov/2025 01:36:49] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1Z3X&sid=ZioomC4YhMhafMX-AAAG HTTP/1.1" 400 -
+192.168.18.205 - - [09/Nov/2025 01:36:53] "GET / HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:36:53] "GET /qr.png HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:36:53] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dqM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:53] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dr2&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dr4&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1drc&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dra&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1c8A&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dsf&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dUs&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dtC&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dte&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dt_&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dVt&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dW2&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1ds6&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dy6&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:36:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1dau&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:36:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1e14&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:13] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1dar&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:13] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1i9s&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:18] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1e1U&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:18] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1jxg&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:38] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1i9t&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:38] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1oGd&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "GET / HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "GET /qr.png HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1q19 HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q1s&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1q1u&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:43] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1jxk&sid=t-WzUtwXQk-NPRttAAAC HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q2O&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1q2M&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:44] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1oGd.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q3o&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q4D&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q4e&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1q50&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:44] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1phh&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1pmZ&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1q2-&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:37:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1prH&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:37:44] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1qCb&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:03] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1pmT&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:03] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1uNK&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:08] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1qD2&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:08] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1w8N&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:14] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1uNK.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:14] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1w8Q&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:28] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1xEo&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:28] "POST /socket.io/?EIO=4&transport=polling&t=Pfb1-Z1&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1xcF&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb20GU&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:53] "GET /socket.io/?EIO=4&transport=polling&t=Pfb1-Z3&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:38:53] "POST /socket.io/?EIO=4&transport=polling&t=Pfb24ke&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:59] "GET /socket.io/?EIO=4&transport=polling&t=Pfb20GY&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:38:59] "POST /socket.io/?EIO=4&transport=polling&t=Pfb26OQ&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:39:18] "GET /socket.io/?EIO=4&transport=polling&t=Pfb24ke.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:39:18] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2Arj&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:39:24] "GET /socket.io/?EIO=4&transport=polling&t=Pfb26OT&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:39:24] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2CWW&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:39:43] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2Arl&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:39:44] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2GyV&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:39:49] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2CWa&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:39:49] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2IeY&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:09] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2GyW&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:09] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2N81&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET / HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET /qr.png HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2O2n HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O3S&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2O3U&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O40&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2O3-&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2N81.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2Ied&sid=jbgmuAibsZeXPlkWAAAE HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O5M&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O5_&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O6n&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:11] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2O79&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:11] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2NjL&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:12] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2NoT&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:12] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2O4Z&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:12] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2NtF&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:12] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2OEY&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2NoF&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2TEp&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:35] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2TEq&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:35] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2OF7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:36] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2Tp7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:40:36] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2UBV&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:59] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2TRn&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:40:59] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2ZLZ&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:01] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2UBX&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:01] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2aIs&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:41:24] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2ZLZ.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:41:24] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2fSH&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2aIx&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2gQg&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:41:49] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2fSI&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:41:49] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2ldw&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:51] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2gQk&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:41:51] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2mZp&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:14] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2ldw.0&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:14] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2rkj&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2mZu&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2shl&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xhI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2xlo&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xlo.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2xpq&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xpp&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2rkk&sid=iGYkuSpV8eZ3XG8FAAAA HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2shr&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2xq_&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2yDL&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2xug&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /qr.png HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2yH1&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xqp&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2yHc&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2yIN&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2yIx&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:42:40] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xx1&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:42] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2yHo&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:42:42] "POST /socket.io/?EIO=4&transport=polling&t=Pfb2yrH&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:04] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2xzV&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:04] "POST /socket.io/?EIO=4&transport=polling&t=Pfb31sQ&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:07] "GET /socket.io/?EIO=4&transport=polling&t=Pfb2yrL&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:08] "POST /socket.io/?EIO=4&transport=polling&t=Pfb33EI&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:08] "GET /socket.io/?EIO=4&transport=polling&t=Pfb31sQ.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:08] "GET /socket.io/?EIO=4&transport=polling&t=Pfb33EL&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:29] "GET /socket.io/?EIO=4&transport=polling&t=Pfb32w3&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:29] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3821&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb33HL&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:33] "POST /socket.io/?EIO=4&transport=polling&t=Pfb39MD&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3821.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:43:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3EDj&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:58] "GET /socket.io/?EIO=4&transport=polling&t=Pfb39MK&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:43:58] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3FXc&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:44:19] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3EDk&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:44:20] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3KKT&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:44:23] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3FXe&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:44:23] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3Lg8&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:44:45] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3KKT.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:44:45] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3QW7&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:44:48] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3LgC&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:44:48] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3Ro7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:45:10] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3QW7.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:45:10] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3Wcs&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:45:13] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3RoB&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:45:14] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3Xw4&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:45:35] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3Wct&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:45:35] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3coa&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:45:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3Xw8&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:45:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3e2A&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:00] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3cob&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:00] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3ivO&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:04] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3e2E&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:04] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3kA7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:25] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3ivV&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:25] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3p52&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:29] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3kAD&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:29] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3qI7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:50] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3p53&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:46:51] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3vBn&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:54] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3qIA&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:46:54] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3wQH&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3vBn.0&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:16] "POST /socket.io/?EIO=4&transport=polling&t=Pfb3_NJ&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:19] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3wQO&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:24] "POST /socket.io/?EIO=4&transport=polling&t=Pfb41jB&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "GET /qr.png HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43WF HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "POST /socket.io/?EIO=4&transport=polling&t=Pfb43b8&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43b9&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "POST /socket.io/?EIO=4&transport=polling&t=Pfb43gF&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb3_NK&sid=q4VaPY-gV36U1Di4AAAI HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:33] "GET /socket.io/?EIO=4&transport=polling&t=Pfb41jC&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43gE&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb43lO&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb442e&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb44DH&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb43qP&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb44EG&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43lF&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb44G4&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43uR&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb44GD&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:34] "POST /socket.io/?EIO=4&transport=polling&t=Pfb44HV&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:34] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43vl&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:49] "GET /socket.io/?EIO=4&transport=polling&t=Pfb44HD&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:47:49] "POST /socket.io/?EIO=4&transport=polling&t=Pfb47rW&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:58] "GET /socket.io/?EIO=4&transport=polling&t=Pfb43zM&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:47:58] "POST /socket.io/?EIO=4&transport=polling&t=Pfb49hk&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:48:14] "GET /socket.io/?EIO=4&transport=polling&t=Pfb47rb&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:48:14] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4DzW&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:48:15] "GET /socket.io/?EIO=4&transport=polling&t=Pfb49hl&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:48:15] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4Dzc&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:48:23] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4Drk&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:48:23] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4FoS&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:48:39] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4EDF&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:48:39] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4K5q&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:48:48] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4FoV&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:48:48] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4LvC&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:04] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4K5x&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:04] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4QF3&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:13] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4LvC.0&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:13] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4R_w&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4Sga HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "GET /qr.png HTTP/1.1" 304 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4SlX&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4SlY&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4SqK.0&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4QF7&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4R_w.0&sid=VnQ1psl3jfZqACNOAAAK HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4SqK&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4TDk&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4SvK&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4TMb&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4Sv9&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4TNY&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4TOK&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4TLd&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4S-C&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4TP4&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4TPd&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:17] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4T00&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:25] "GET / HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:25] "GET /qr.png HTTP/1.1" 304 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VOW HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VTx&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VTz&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VUd&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4TQO&sid=ew1d0oU16NtZliWwAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4T2_&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VUZ&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VY2&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4V7t&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VYl&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VZM&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VZs&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VC1&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:26] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VVC&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:26] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VC7&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:27] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VeR&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:27] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4VG_&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:27] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VjS&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:41] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4VGz&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:49:41] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4YsA&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:51] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4Vk0&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:49:51] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4bZ-&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:06] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4YsB&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:06] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4eyt&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:50:08] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4ba6&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:08] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4eyu&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:50:16] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4fxk&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:50:16] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4hjC&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:31] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4fYc&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:32] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4l8K&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:50:41] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4hjE&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:50:41] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4ns1&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:57] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4l8K.0&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:50:57] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4rJ_&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:06] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4ns3&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:06] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4u0o&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:51:22] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4rK0&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:51:22] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4xQp&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:31] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4u0v&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:31] "POST /socket.io/?EIO=4&transport=polling&t=Pfb4-8h&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:51:47] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4xQq&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:51:47] "POST /socket.io/?EIO=4&transport=polling&t=Pfb51cY&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:56] "GET /socket.io/?EIO=4&transport=polling&t=Pfb4-8o&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:51:56] "POST /socket.io/?EIO=4&transport=polling&t=Pfb54Gh&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:52:12] "GET /socket.io/?EIO=4&transport=polling&t=Pfb51ca&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:52:12] "POST /socket.io/?EIO=4&transport=polling&t=Pfb57jM&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:52:21] "GET /socket.io/?EIO=4&transport=polling&t=Pfb54Gl&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:52:21] "POST /socket.io/?EIO=4&transport=polling&t=Pfb5AOb&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:52:37] "GET /socket.io/?EIO=4&transport=polling&t=Pfb57jO&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:52:37] "POST /socket.io/?EIO=4&transport=polling&t=Pfb5Dv6&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+192.168.18.205 - - [09/Nov/2025 01:52:46] "GET /socket.io/?EIO=4&transport=polling&t=Pfb5AOe&sid=p-m9DdcA9O_hnPdKAAAO HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:02] "GET /socket.io/?EIO=4&transport=polling&t=Pfb5Dv7&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:03] "POST /socket.io/?EIO=4&transport=polling&t=Pfb5J_r&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:19] "GET /socket.io/?EIO=4&transport=polling&t=Pfb5J_t&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:28] "GET /socket.io/?EIO=4&transport=polling&t=Pfb5Nzv&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:28] "POST /socket.io/?EIO=4&transport=polling&t=Pfb5QBU&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:53] "GET /socket.io/?EIO=4&transport=polling&t=Pfb5QBV&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -
+127.0.0.1 - - [09/Nov/2025 01:53:53] "POST /socket.io/?EIO=4&transport=polling&t=Pfb5WNB&sid=8IkhcEHbz8mPt5lRAAAM HTTP/1.1" 200 -

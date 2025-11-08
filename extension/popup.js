@@ -157,8 +157,9 @@ document.getElementById('startServer').onclick = async () => {
       btn.innerText = originalLabel;
     }
   } catch (err) {
-    status.innerText = 'Failed to contact native host — make sure it is installed and registered.';
-    console.error('sendNativeMessage error:', err && (err.message || err.toString()), err);
+    const detail = (err && (err.message || err.toString())) || '';
+    status.innerText = `Failed to contact native host${detail ? ` — ${detail}` : ''}. Make sure it is installed and registered.`;
+    console.error('sendNativeMessage error:', detail, err);
     btn.disabled = false;
     btn.innerText = originalLabel;
   }

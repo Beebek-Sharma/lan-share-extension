@@ -1,124 +1,593 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>LAN Share (Python + WebRTC)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LAN Share extends</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: system-ui; padding: 12px; }
-    #log { height: 250px; overflow: auto; border: 1px solid #ccc; padding: 6px; margin-top: 8px; }
-    #msg, #fileInput { margin-top: 8px; }
-    .image-preview { max-width: 200px; border-radius: 8px; margin-top: 4px; display:block; }
-    #qrBox { margin: 8px 0; }
-    #qrBox img { width: 150px; height: 150px; border: 1px solid #eee; border-radius: 8px; }
+    :root{
+      --bg: #0b1020;
+      --bg2: #0e1326;
+      --surface: rgba(255,255,255,0.06);
+      --text: #e6e8ef;
+      --muted: #a7adbd;
+      --accent: #6aa6ff;
+      --accent-2: #6efacc;
+      --danger: #ff6b6b;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+      --radius: 14px;
+    }
+    @media (prefers-color-scheme: light) {
+      :root{
+        --bg: #ecf1ff;
+        --bg2: #e8eefc;
+        --surface: rgba(0,0,0,0.06);
+        --text: #0b1020;
+        --muted: #4b5567;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body{
+      margin:0;
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at -10% -10%, rgba(107, 170, 255, 0.25), transparent 60%),
+        radial-gradient(1000px 500px at 120% 10%, rgba(110, 250, 204, 0.22), transparent 60%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+    }
+    .container{ max-width: 1000px; margin: 0 auto; padding: 24px 18px 32px; }
+    header{
+      display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px; flex-wrap:wrap;
+    }
+    .title{ font-weight:700; letter-spacing:.2px; font-size: clamp(18px, 2.6vw, 28px); }
+    .subtitle{ color:var(--muted); font-weight:500; font-size: 12px; }
+
+    .grid{ display:grid; grid-template-columns: 1fr 1.4fr; gap:16px; }
+    @media (max-width: 860px){ .grid{ grid-template-columns: 1fr; } }
+
+    .col{ display:flex; flex-direction:column; gap:16px; }
+
+    .card{
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+      backdrop-filter: blur(10px);
+    }
+    .row{ display:flex; gap:10px; align-items:center; }
+    .row + .row{ margin-top:10px; }
+    .row.controls{ flex-wrap: wrap; }
+    .row.msg{ }
+    .row.files{ align-items:flex-start; }
+
+    .list{ list-style:none; padding:0; margin:8px 0 0; display:flex; flex-wrap:wrap; gap:8px; }
+    .peer{ display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14); font-size:12px; }
+    .dot{ width:8px; height:8px; border-radius:50%; background:#f87171; box-shadow:0 0 0 2px rgba(0,0,0,0.15) inset; }
+    .peer.connected .dot{ background:#34d399; }
+    .badge{ padding:2px 8px; border-radius:999px; background: rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.16); font-size:12px; color:var(--text); }
+
+    /* Mobile adjustments */
+    @media (max-width: 640px){
+      .container{ padding: 14px 12px 24px; }
+      header{ gap:8px; }
+      .row.controls .input{ flex:1; min-width: 0; }
+      .row.controls .btn{ width:100%; }
+      .qr{ width: min(70vw, 260px); height: auto; aspect-ratio: 1 / 1; margin-top: 6px; }
+      .row.msg{ flex-wrap: wrap; }
+      .row.msg .input{ flex:1; min-width:0; }
+      .row.msg .btn{ width:100%; }
+      .row.files{ flex-direction: column; gap:8px; }
+      .file-label, .dropzone{ width:100%; }
+      #log{ height: 42vh; }
+      #status{ height: 18vh; }
+    }
+
+    .input{
+      appearance:none; border:none; outline:none; width:100%;
+      padding: 10px 12px; border-radius: 10px; color: var(--text);
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+    }
+    .btn{
+      appearance:none; border:none; outline:none; cursor:pointer; white-space:nowrap;
+      padding:10px 14px; border-radius:10px; font-weight:600; color:#0b1020;
+      background: linear-gradient(180deg, var(--accent), #4f8efc);
+      box-shadow: 0 6px 14px rgba(79, 142, 252, .35);
+    }
+    .btn.secondary{ background: rgba(255,255,255,0.10); color: var(--text); box-shadow:none; }
+    .btn:disabled{ opacity:.6; cursor:not-allowed; }
+
+    /* Icon buttons under message box */
+    .iconbar{ display:flex; gap:10px; margin-top:8px; }
+    .icon-btn{ display:inline-flex; align-items:center; gap:6px; padding:8px 10px; border-radius:10px; border:1px dashed rgba(255,255,255,0.25); color:var(--muted); background:transparent; cursor:pointer; }
+    .icon-btn:hover{ border-color: var(--accent); color: var(--text); }
+    .icon-btn input[type=file]{ display:none; }
+    .icon{ width:18px; height:18px; fill: currentColor; display:inline-block; }
+
+    #log{
+      height: 340px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      background: rgba(0,0,0,0.35); border:1px solid rgba(255,255,255,0.12); padding: 10px; border-radius: 12px; line-height:1.35;
+    }
+    #log.dragover{ outline:2px dashed var(--accent); outline-offset:-6px; }
+    #status{
+      height: 140px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      background: rgba(0,0,0,0.35); border:1px solid rgba(255,255,255,0.12); padding: 10px; border-radius: 12px; line-height:1.35; margin-bottom: 8px;
+    }
+    #log a{ color: var(--accent-2); text-decoration: none; }
+    .image-preview{ max-width: 220px; border-radius: 10px; margin-top:6px; display:block; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+
+    /* Activity entries */
+    .log-entry{ position: relative; padding-right: 32px; }
+    .del-btn{ position:absolute; right:6px; top:2px; opacity:.0; transition:opacity .15s ease; background:transparent; border:0; color:var(--muted); cursor:pointer; }
+    .log-entry:hover .del-btn{ opacity:.9; }
+    .del-btn:focus{ opacity:1; outline:1px solid rgba(255,255,255,.2); border-radius:6px; }
+
+    .qr{
+      width: 170px; height:170px; border-radius: 12px; border:1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.06); display:block;
+    }
+    .label{ color: var(--muted); font-size:12px; margin: 6px 0 2px; }
+
+    /* Modal QR */
+    .modal{ position: fixed; inset:0; display:none; align-items:center; justify-content:center; background: rgba(0,0,0,0.55); z-index: 9999; padding: 16px; }
+    .modal.show{ display:flex; }
+    .modal-card{ background: var(--surface); border:1px solid rgba(255,255,255,0.16); border-radius: 14px; box-shadow: var(--shadow); padding: 12px; max-width: 92vw; }
+    .modal-card img{ width: min(78vw, 340px); height: auto; border-radius:12px; display:block; }
+
+    .dropzone{
+      border: 2px dashed rgba(255,255,255,0.28); border-radius: 12px; padding: 14px; text-align:center; color: var(--muted);
+      transition: all .2s ease; background: rgba(255,255,255,0.06);
+    }
+    .dropzone.dragover{ border-color: var(--accent); color: var(--text); background: rgba(106,166,255,0.12); }
+
+    .file-label{ display:inline-flex; align-items:center; gap:8px; padding: 10px 12px; border:1px dashed rgba(255,255,255,0.25); border-radius:10px; cursor:pointer; color:var(--muted); }
+    #fileInput{ display:none; }
+
+    footer{ margin-top:12px; text-align:center; color:var(--muted); font-size:12px; }
   </style>
 </head>
 <body>
-  <h2>LAN Share (Python + WebRTC)</h2>
-  <div id="qrBox">
-    <img src="/qr.png" alt="QR" onerror="this.parentElement.style.display='none'" title="Scan to open on another device">
+  <div class="container">
+    <header>
+      <div>
+        <div class="title">LAN Share</div>
+      </div>
+      <div class="row controls" style="opacity:.85">
+        <script>
+          // prefill name from localStorage as early as possible (noscript fallback handled later)
+          try { document.addEventListener('DOMContentLoaded', () => { const el = document.getElementById('name'); if (el) { el.value = localStorage.getItem('ls_name') || ''; } }); } catch(e){}
+        </script>
+        <span class="label" style="margin:0 6px 0 0">Name</span>
+        <input id="name" class="input" placeholder="Your name" style="width:160px">
+        <span class="label" style="margin:0 6px 0 10px">Room</span>
+        <input id="room" class="input" value="default" style="width:160px">
+        <button id="connect" class="btn">Connect</button>
+        <button id="disconnect" class="btn secondary" disabled>Disconnect</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="col">
+        <div class="card" id="peersCard">
+          <div class="row" style="justify-content:space-between">
+            <div class="label">Peers</div>
+            <div class="badge" id="peerCount">0</div>
+          </div>
+          <ul id="peersList" class="list"></ul>
+        </div>
+
+        <div class="card">
+          <div class="label">Scan on another device</div>
+          <!-- QR moved to icon bar below -->
+
+          <div class="label" style="margin-top:12px">Message</div>
+          <div class="row msg">
+            <input id="msg" class="input" placeholder="Type message or link">
+            <button id="send" class="btn">Send</button>
+          </div>
+
+          <div class="iconbar">
+            <label for="fileInput" class="icon-btn" title="Choose files" aria-label="Choose files">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21.44 11.05l-9.19 9.19a5.5 5.5 0 11-7.78-7.78l9.19-9.19a3.5 3.5 0 114.95 4.95l-9.19 9.19a1.5 1.5 0 11-2.12-2.12l9.19-9.19a.5.5 0 10-.71-.71l-9.19 9.19a2.5 2.5 0 103.54 3.54l9.19-9.19a4.5 4.5 0 10-6.36-6.36l-9.19 9.19"/>
+              </svg>
+              <input type="file" id="fileInput" multiple>
+            </label>
+            <button id="openQR" class="icon-btn" title="Show QR" aria-label="Show QR">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm12 0h2v2h-2v-2zm-4 4h2v2h-2v-2zm4 0h2v4h-6v-2h4v-2zm4-4h2v6h-2v-6z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="display:flex; flex-direction:column;">
+          <div class="label">Status</div>
+          <div id="status" aria-live="polite"></div>
+        </div>
+        <div class="card" style="display:flex; flex-direction:column;">
+          <div class="label">Activity</div>
+          <div id="log" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Peer-to-peer over WebRTC. No cloud relay for data.</footer>
   </div>
-  <p>
-    Room: <input id="room" value="default">
-    <button id="connect">Connect</button>
-  </p>
 
-  <input id="msg" placeholder="Type message or link" style="width:70%">
-  <button id="send">Send</button><br>
-  <input type="file" id="fileInput" />
-
-  <div id="log"></div>
+  <!-- QR Modal -->
+  <div id="qrModal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="row" style="justify-content:space-between;align-items:center;margin-bottom:10px;">
+        <div class="label" style="font-size:14px;color:var(--text)">Scan this on your other device</div>
+        <button id="closeQR" class="btn secondary">Close</button>
+      </div>
+      <img id="qrImage" src="/qr.png" alt="LAN Share QR" />
+    </div>
+  </div>
 
   <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
   <script src="https://unpkg.com/simple-peer@9.11.1/simplepeer.min.js"></script>
   <script>
-    const logBox = document.getElementById('log');
-    const log = html => {
-      logBox.innerHTML += `<div>${html}</div>`;
+    const $ = (id) => document.getElementById(id);
+    const logBox = $('log');
+    const statusBox = $('status');
+    const dropZone = null;
+    const fileInput = $('fileInput');
+    const qrModal = $('qrModal');
+    const qrOpenBtn = $('openQR');
+    const qrCloseBtn = $('closeQR');
+    const qrImage = $('qrImage');
+
+    // Activity log with persistence per room
+    let history = [];
+    const HISTORY_MAX = 400;
+    const historyKey = () => `ls_history_${(document.getElementById('room').value || 'default').trim()}`;
+    const appendToDom = (html) => {
+      logBox.insertAdjacentHTML('beforeend', `<div>${html}</div>`);
       logBox.scrollTop = logBox.scrollHeight;
+    };
+    // Status logger (separate panel); safe if panel missing
+    function sys(html){
+      try {
+        if (statusBox) {
+          statusBox.insertAdjacentHTML('beforeend', `<div>${html}</div>`);
+          statusBox.scrollTop = statusBox.scrollHeight;
+        } else {
+          console.log('[STATUS]', html);
+        }
+      } catch (e) { console.log('[STATUS]', html); }
+    }
+    const isStatusHtml = (html) => /Connected to signaling server|Data channel ready|Disconnected from signaling|left the room|Waiting for peers|Queued message|Queued image|Queued file/i.test(html || '');
+    const saveHistory = () => { try { localStorage.setItem(historyKey(), JSON.stringify(history.slice(-HISTORY_MAX))); } catch {} };
+    const createId = () => Math.random().toString(36).slice(2) + Date.now().toString(36);
+
+    function renderEntry(e){
+      const mid = e.id || createId();
+      const deletable = e.deletable !== false;
+      const html = `<div class="log-entry" data-mid="${mid}">${e.html}${deletable ? `<button class="del-btn" title="Delete for everyone" data-mid="${mid}">🗑</button>` : ''}</div>`;
+      appendToDom(html);
+      return mid;
+    }
+    function addEntry(html, id, persist=true, deletable=true){
+      const mid = renderEntry({ id, html, deletable });
+      if (persist && !isStatusHtml(html)) {
+        history.push({ ts: Date.now(), html, id: mid, deletable });
+        if (history.length > HISTORY_MAX) history = history.slice(-HISTORY_MAX);
+        saveHistory();
+      }
+      return mid;
+    }
+    function deleteEntry(mid, propagate){
+      try { const el = logBox.querySelector(`.log-entry[data-mid="${CSS.escape(mid)}"]`); if (el) el.remove(); } catch {}
+      // Remove from in-memory history
+      history = (history || []).filter(e => e && e.id !== mid);
+      // Also remove from localStorage to prevent it from reappearing
+      try {
+        const stored = localStorage.getItem(historyKey());
+        const arr = stored ? JSON.parse(stored) : [];
+        const filtered = arr.filter(e => e && e.id !== mid);
+        localStorage.setItem(historyKey(), JSON.stringify(filtered));
+      } catch {}
+      if (propagate) {
+        const ids = connectedPeers();
+        for (const pid of ids) sendJsonToPeer(pid, { t: PROTO.DEL, id: mid });
+      }
+    }
+    // delegate delete button clicks (local only, don't propagate)
+    logBox.addEventListener('click', (e) => {
+      const btn = e.target.closest('.del-btn');
+      if (!btn) return;
+      const mid = btn.getAttribute('data-mid');
+      if (!mid) return;
+      deleteEntry(mid, false);
+    });
+    const restoreHistory = () => {
+      try {
+        const raw = localStorage.getItem(historyKey());
+        const arr = raw ? JSON.parse(raw) : [];
+        // Filter out any previously-saved status/queued lines (from older versions)
+        history = (arr || []).filter(e => e && !isStatusHtml(e.html));
+        // Ensure all entries have unique IDs
+        for (const e of history) {
+          if (!e.id) e.id = createId();
+        }
+        // Persist the cleaned history so they don't reappear on next load
+        saveHistory();
+      } catch { history = []; }
+      logBox.innerHTML = '';
+      for (const e of history) renderEntry(e);
+    };
+    const log = (html) => {
+      // Only persist non-status messages in Activity
+      if (!isStatusHtml(html)) {
+        history.push({ ts: Date.now(), html });
+        if (history.length > HISTORY_MAX) history = history.slice(-HISTORY_MAX);
+        saveHistory();
+      }
+      appendToDom(html);
     };
 
     let socket, peers = {};
+    let myId = null;
+    let myName = '';
+    const incoming = {};
+    const names = {}; // socket.id -> username
+    const outbox = []; // queue items until at least one peer connected
+    const PROTO = { MSG: 'msg', IMG: 'img', FILE: 'file', FILE_END: 'file_end', DEL: 'del' };
+    const RTC_CONFIG = { iceServers: [
+      { urls: ['stun:stun.l.google.com:19302', 'stun:global.stun.twilio.com:3478'] }
+    ]};
 
-    document.getElementById('connect').onclick = () => {
-      socket = io();
-      const room = document.getElementById('room').value;
-      socket.emit('join-room', { room });
-      log('Connected to signaling server. Waiting for peers...');
+    function beginConnect(){
+      if (socket) return; // prevent duplicates
+      socket = io({ transports: ['polling'], forceNew: true });
 
-      socket.on('peer-joined', id => {
-        log('Peer joined: ' + id);
-        createPeer(id, true);
+      const setupHandlers = () => {
+        // Use on() so they're active after every connect
+        socket.off('peers');
+        socket.off('peer-joined');
+        socket.off('peer-left');
+        socket.off('signal');
+
+        socket.on('peers', (list) => {
+          // I am the joiner: I should INITIATE connections to existing peers
+          (list || []).forEach(p => {
+            names[p.id] = p.name || names[p.id];
+            if (!peers[p.id]) createPeer(p.id, true); // initiator
+          });
+          updatePeerList();
+        });
+
+        socket.on('peer-joined', (payload) => {
+          // Someone else joined. The JOINER will initiate connections to us.
+          const { id, name } = (typeof payload === 'string') ? { id: payload, name: undefined } : payload;
+          if (name) names[id] = name;
+          // Do not proactively create a peer here to avoid glare; wait for signals.
+          updatePeerList();
+        });
+
+        socket.on('peer-left', (payload) => {
+          const id = (typeof payload === 'string') ? payload : payload.id;
+          if (peers[id]) peers[id].destroy();
+          delete peers[id];
+          delete names[id];
+          updatePeerList();
+        });
+
+        socket.on('signal', ({ from, data }) => {
+          // If this is the first message from this peer and we didn't initiate, create as non-initiator
+          if (!peers[from]) createPeer(from, false);
+          peers[from] && peers[from].signal(data);
+        });
+      };
+
+      socket.on('connect', () => {
+        myId = socket.id;
+        // reset known names to avoid duplicates after reconnect
+        for (const k in names) delete names[k];
+        if (myName) names[myId] = myName; else names[myId] = localStorage.getItem('ls_name') || names[myId] || `User-${(myId||'').slice(-4)}`;
+        $('connect').disabled = true;
+        const d = document.getElementById('disconnect'); if (d) d.disabled = false;
+        localStorage.setItem('ls_autoconnect','1');
+        
+        setupHandlers();
+        updatePeerList();
       });
 
-      socket.on('peer-left', id => {
-        log('Peer left: ' + id);
-        if (peers[id]) peers[id].destroy();
-        delete peers[id];
+      socket.off('disconnect');
+      socket.on('disconnect', (reason) => {
+        const d = document.getElementById('disconnect'); if (d) d.disabled = true;
+        $('connect').disabled = false;
+        try { socket.close(); } catch {}
+        socket = null; // allow re-connect via button
+        peers = {}; // datachannels are gone
+        // keep only myself in names to avoid stale entries
+        const me = myId, label = names[myId];
+        for (const k in names) delete names[k];
+        if (me && label) names[me] = label;
+        updatePeerList();
+        sys('🔌 Disconnected from signaling' + (reason ? ` (${reason})` : ''));
       });
 
-      socket.on('signal', ({ from, data }) => {
-        if (!peers[from]) createPeer(from, false);
-        peers[from].signal(data);
+      socket.on('connect_error', (err) => {
+        sys('⚠️ Connect error: ' + (err && (err.message || err.toString()) || 'unknown'));
       });
-    };
+      socket.on('reconnect_error', (err) => {
+        sys('⚠️ Reconnect error: ' + (err && (err.message || err.toString()) || 'unknown'));
+      });
 
+      const room = $('room').value || 'default';
+      const name = ($('name').value || localStorage.getItem('ls_name') || '').trim() || `User-${Math.random().toString(36).slice(-4)}`;
+      myName = name;
+      localStorage.setItem('ls_name', name);
+      socket.emit('join-room', { room, name });
+      sys('🔔 Connected to signaling server. Waiting for peers...');
+    }
+
+    $('connect').onclick = () => beginConnect();
+
+    // no longer used for handshake; keep simple creator
     function createPeer(id, initiator) {
-      const p = new SimplePeer({ initiator, trickle: true });
+      const p = new SimplePeer({ initiator, trickle: true, config: RTC_CONFIG });
       peers[id] = p;
 
       p.on('signal', data => {
+        if (!socket) return;
         socket.emit('signal', { to: id, from: socket.id, data });
       });
 
-      p.on('connect', () => log('✅ Connected with ' + id));
+      p.on('connect', async () => {
+        updatePeerList();
+        sys(`✅ Data channel ready with ${escapeHtml(displayName(id))}`);
+        // Flush any queued items to this peer
+        try { await flushOutboxToPeer(id); } catch (e) { console.warn('flush queue error', e); }
+      });
+      p.on('close', () => { updatePeerList(); });
+      p.on('error', (e) => { updatePeerList(); console.warn('peer error', id, e); });
 
       p.on('data', data => {
-        if (data instanceof ArrayBuffer) {
-          const blob = new Blob([data]);
-          const url = URL.createObjectURL(blob);
-          log(`<a href="${url}" download="received_file">📦 Download file</a>`);
-        } else {
-          const msg = new TextDecoder().decode(data);
-          if (msg.startsWith('data:image')) {
-            log(`<img src="${msg}" class="image-preview">`);
-          } else {
-            log('💬 ' + msg);
+        const isBinary = (data instanceof ArrayBuffer) || ArrayBuffer.isView(data);
+
+        // If binary arrives but we don't know what it is yet, try decoding to text (it may be JSON message)
+        if (isBinary && !incoming[id]) {
+          try {
+            const view = (data instanceof ArrayBuffer) ? new Uint8Array(data) : new Uint8Array(data.buffer, data.byteOffset, data.byteLength);
+            const maybeText = new TextDecoder().decode(view);
+            try {
+              const obj = JSON.parse(maybeText);
+              if (obj && obj.t) { data = maybeText; }
+            } catch {}
+          } catch {}
+        }
+
+        // Handle string (text/JSON) frames
+        if (typeof data === 'string') {
+          try {
+            const obj = JSON.parse(data);
+            if (obj && obj.t === PROTO.MSG) { addEntry(`💬 ${escapeHtml(obj.from || displayName(id))}: ${escapeHtml(obj.v)}`, obj.id, true, true); return; }
+            if (obj && obj.t === PROTO.IMG) { addEntry(`🖼️ ${escapeHtml(obj.from || displayName(id))}<br><img src="${obj.v}" class="image-preview">`, obj.id, true, true); return; }
+            if (obj && obj.t === PROTO.FILE) {
+              incoming[id] = { expecting: true, name: obj.name, type: obj.type, size: obj.size, received: 0, chunks: [], from: (obj.from || displayName(id)), entryId: obj.id };
+              addEntry(`⬇️ ${escapeHtml(obj.from || displayName(id))} is sending: ${escapeHtml(obj.name)} (${Math.round(obj.size/1024)} KB) ...`, obj.id, true, true);
+              return;
+            }
+            if (obj && obj.t === PROTO.FILE_END) { return; }
+            if (obj && obj.t === PROTO.DEL) { deleteEntry(obj.id, false); return; }
+          } catch {}
+          // Not JSON: plain message (no id) — still add as entry
+          addEntry(`💬 ${escapeHtml(displayName(id))}: ${escapeHtml(data)}`, createId(), true, true);
+          return;
+        }
+
+        // Binary frames (chunks)
+        if (isBinary) {
+          const chunk = (data instanceof ArrayBuffer)
+            ? data
+            : data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength);
+          const entry = incoming[id];
+          if (entry && entry.expecting) {
+            entry.chunks.push(chunk);
+            entry.received += chunk.byteLength;
+            if (entry.received >= entry.size) {
+              const blob = new Blob(entry.chunks, { type: entry.type || 'application/octet-stream' });
+              const url = URL.createObjectURL(blob);
+              const name = entry.name || 'received_file';
+              const from = entry.from ? `${escapeHtml(entry.from)}: ` : '';
+              const displayName = name.split('/').pop() || name;
+              // Replace previous placeholder with download link
+              const newEntryId = createId();
+              try { const el = logBox.querySelector(`.log-entry[data-mid="${CSS.escape(entry.entryId)}"]`); if (el) el.remove(); } catch {}
+              addEntry(`📥 ${from}<a href="${url}" download="${displayName}" style="color: var(--accent-2); font-weight: 600;">Download ${escapeHtml(displayName)} (${Math.round(entry.size/1024)} KB)</a>`, newEntryId, true, true);
+              incoming[id] = null;
+            }
           }
+          return;
         }
       });
     }
 
-    document.getElementById('send').onclick = () => {
-      const msg = document.getElementById('msg').value;
-      const data = msg.trim();
+    $('send').onclick = async () => {
+      const data = ($('msg').value || '').trim();
       if (!data) return;
-      for (const id in peers) {
-        if (peers[id].connected) peers[id].send(data);
+      const ids = connectedPeers();
+      const mid = createId();
+      const payload = { t: PROTO.MSG, id: mid, v: data, from: myName };
+      if (ids.length === 0) {
+        outbox.push({ kind: 'msg', payload });
+        addEntry('🕒 Queued message — waiting for peer to connect...', createId(), false, true);
+      } else {
+        for (const pid of ids) sendJsonToPeer(pid, payload);
       }
-      log('You: ' + data);
-      document.getElementById('msg').value = '';
+      addEntry('You: ' + escapeHtml(data), mid, true, true);
+      $('msg').value = '';
     };
 
-    document.getElementById('fileInput').onchange = async e => {
-      const file = e.target.files[0];
-      if (!file) return;
-
-      if (file.type.startsWith('image/') && file.size < 2 * 1024 * 1024) {
-        const base64 = await toBase64(file);
-        broadcast(base64);
-        log(`🖼️ Sent image: ${file.name}`);
-        log(`<img src="${base64}" class="image-preview">`);
-      } else {
-        const buffer = await file.arrayBuffer();
-        broadcast(buffer);
-        log(`📁 Sent file: ${file.name} (${Math.round(file.size / 1024)} KB)`);
+    // Enter to send in message box (Shift+Enter for newline)
+    const msgInput = $('msg');
+    if (msgInput) msgInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        $('send').click();
       }
+    });
+
+    if (fileInput) fileInput.onchange = async e => {
+      const files = Array.from(e.target.files || []);
+      for (const file of files) await handleFile(file);
       e.target.value = '';
     };
 
-    function broadcast(data) {
-      for (const id in peers) {
-        if (peers[id].connected) peers[id].send(data);
+    // Drag & drop support
+
+    async function handleFile(file){
+      if (!file) return;
+      const ids = connectedPeers();
+      const mid = createId();
+      if (ids.length === 0) {
+        outbox.push({ kind: 'file', file, id: mid });
+        addEntry(`🕒 Queued file: ${escapeHtml(file.name)} (${Math.round(file.size/1024)} KB)`, createId(), false, true);
+      } else {
+        for (const pid of ids) await sendFileToPeer(pid, file, mid);
+      }
+      addEntry(`📁 Sent file: ${escapeHtml(file.name)} (${Math.round(file.size / 1024)} KB)`, mid, true, true);
+    }
+
+    function connectedPeers(){
+      return Object.keys(peers).filter(id => peers[id] && peers[id].connected && id !== myId);
+    }
+
+    function sendJsonToPeer(id, obj){
+      const p = peers[id];
+      if (!p || !p.connected) return false;
+      try { p.send(JSON.stringify(obj)); return true; } catch { return false; }
+    }
+
+    async function sendFileToPeer(id, file, providedId){
+      const p = peers[id];
+      if (!p || !p.connected) return false;
+      // header
+      sendJsonToPeer(id, { t: PROTO.FILE, id: (providedId || createId()), name: file.name, type: file.type || 'application/octet-stream', size: file.size, from: myName });
+      const CHUNK_SIZE = 64 * 1024;
+      for (let offset = 0; offset < file.size; offset += CHUNK_SIZE) {
+        const chunk = await file.slice(offset, offset + CHUNK_SIZE).arrayBuffer();
+        p.send(chunk);
+      }
+      sendJsonToPeer(id, { t: PROTO.FILE_END, name: file.name });
+      return true;
+    }
+
+    async function flushOutboxToPeer(id){
+      if (!peers[id] || !peers[id].connected) return;
+      for (const item of outbox) {
+        if (item.kind === 'msg') sendJsonToPeer(id, item.payload);
+        else if (item.kind === 'file') await sendFileToPeer(id, item.file, item.id);
       }
     }
 
@@ -129,6 +598,72 @@
         reader.onerror = reject;
         reader.readAsDataURL(file);
       });
+    }
+
+    function escapeHtml(str){
+      return (str||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+    }
+
+    // Disconnect button: leave room and stop signaling
+    const discBtn = document.getElementById('disconnect');
+    if (discBtn) discBtn.onclick = () => {
+      try { localStorage.removeItem('ls_autoconnect'); } catch{}
+      if (socket) {
+        try { socket.disconnect(); } catch {}
+      }
+      socket = null; myId = null;
+      // tear down peers
+      for (const pid in peers) { try { peers[pid].destroy(); } catch {} }
+      peers = {}; updatePeerList();
+      $('connect').disabled = false; discBtn.disabled = true;
+      sys('👋 You left the room.');
+    };
+
+    // Auto-reconnect after refresh if user didn't explicitly disconnect
+    document.addEventListener('DOMContentLoaded', () => {
+      try { restoreHistory(); } catch {}
+      try {
+        const roomInput = document.getElementById('room');
+        roomInput && roomInput.addEventListener('input', () => restoreHistory());
+      } catch {}
+      try { if (localStorage.getItem('ls_autoconnect') === '1') beginConnect(); } catch {}
+      // Drag & drop over Activity log
+      try {
+        ['dragenter','dragover'].forEach(ev => logBox.addEventListener(ev, e => { e.preventDefault(); logBox.classList.add('dragover'); }));
+        ['dragleave','drop'].forEach(ev => logBox.addEventListener(ev, e => { e.preventDefault(); logBox.classList.remove('dragover'); }));
+        logBox.addEventListener('drop', async e => {
+          const files = Array.from(e.dataTransfer?.files || []);
+          for (const file of files) await handleFile(file);
+        });
+      } catch {}
+      // QR wiring
+      try {
+        if (qrOpenBtn) qrOpenBtn.onclick = () => { if (qrModal) qrModal.classList.add('show'); };
+        if (qrCloseBtn) qrCloseBtn.onclick = () => { if (qrModal) qrModal.classList.remove('show'); };
+        if (qrModal) qrModal.addEventListener('click', (e) => { if (e.target === qrModal) qrModal.classList.remove('show'); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') qrModal && qrModal.classList.remove('show'); });
+        // Hide button if qr not available
+        if (qrImage) {
+          qrImage.addEventListener('error', () => { if (qrOpenBtn) qrOpenBtn.style.display = 'none'; if (qrModal) qrModal.classList.remove('show'); });
+        }
+      } catch {}
+    });
+
+    function short(id) { return (id || '').slice(-6) || id; }
+    function displayName(pid){ return (names[pid] && names[pid].trim()) ? names[pid].trim() : `User-${short(pid)}`; }
+    function updatePeerList(){
+      const list = document.getElementById('peersList');
+      const count = document.getElementById('peerCount');
+      // Show all known users including self
+      const ids = Array.from(new Set([...(Object.keys(names)||[]), myId].filter(Boolean)));
+      const items = ids.map(pid => {
+        const isMe = pid === myId;
+        const connected = isMe ? true : !!(peers[pid] && peers[pid].connected);
+        const n = escapeHtml(displayName(pid)) + (isMe ? ' (you)' : '');
+        return `<li class=\"peer ${connected ? 'connected' : ''}\"><span class=\"dot\"></span><span>${n}</span>${connected ? '<span style=\\"color:var(--muted)\\"\">'+(isMe?'online':'connected')+'</span>' : '<span style=\\"color:var(--muted)\\"\">signaling</span>'}</li>`;
+      });
+      list.innerHTML = items.join('');
+      count.textContent = String(ids.length);
     }
   </script>
 </body>

@@ -5,9 +5,14 @@ import qrcode
 import os
 import socket
 import argparse
+from collections import defaultdict
 
 app = Flask(__name__, static_folder='static')
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode="threading")
+
+# Track usernames per room so clients can show names
+rooms = defaultdict(dict)  # room -> { sid: name }
+sid_to_room = {}
 
 def get_local_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -34,8 +39,15 @@ def qr_image():
 @socketio.on('join-room')
 def handle_join(data):
     room = data.get('room', 'default')
+    name = data.get('name') or f"User-{request.sid[-4:]}"
     join_room(room)
-    emit('peer-joined', request.sid, room=room, include_self=False)
+    rooms[room][request.sid] = name
+    sid_to_room[request.sid] = room
+    # Send existing peers to the joiner (id + name)
+    current = [{ 'id': sid, 'name': nm } for sid, nm in rooms[room].items() if sid != request.sid]
+    emit('peers', current)
+    # Notify others about this joiner
+    emit('peer-joined', { 'id': request.sid, 'name': name }, room=room, include_self=False)
 
 @socketio.on('signal')
 def handle_signal(data):
@@ -44,7 +56,18 @@ def handle_signal(data):
 
 @socketio.on('disconnect')
 def handle_disconnect():
-    emit('peer-left', request.sid, broadcast=True)
+    sid = request.sid
+    room = sid_to_room.pop(sid, None)
+    name = None
+    if room:
+        name = rooms[room].pop(sid, None)
+        if not rooms[room]:
+            rooms.pop(room, None)
+    payload = { 'id': sid, 'name': name } if name else sid
+    if room:
+        emit('peer-left', payload, room=room, include_self=False)
+    else:
+        emit('peer-left', payload, broadcast=True)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="LAN Share Signaling Server")
