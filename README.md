@@ -22,6 +22,26 @@ A minimal local WebRTC "LAN Share" app with:
   - `start_server.sh` – Unix launcher (spawns Python in background)
   - `register_native_host_windows.reg` – Helper registry file for Chrome (Current User)
 
+## Screenshots
+
+Quick visual reference for the extension and web client (images are in the `Photo/` folder):
+
+### Extension Popup
+Modern popup UI with the Start/Stop controls and QR code.
+
+<img src="Photo/extension.png" alt="Extension popup" width="400">
+
+### Phone Interface
+Responsive web UI shown on a smartphone.
+
+<img src="Photo/phone.png" alt="Phone interface" width="400">
+
+### Desktop Client
+Desktop view of the web client.
+
+<img src="Photo/desktop.png" alt="Desktop client" width="400">
+
+
 ## Quick Start (Windows)
 
 1. Install Python 3.13 (or your version). Note its path, e.g.
